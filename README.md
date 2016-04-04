@@ -2,7 +2,7 @@
 
 ## TODOs
   * implement protocol defined in jenkins-traffic-light-sender
-  * create schmematic
+  * create schematic
   * design pcb and produce several pieces
   
 ## Hardware
