@@ -1,1 +1,1 @@
-# jenkins-traffic-light-sender
+# jenkins-traffic-light-receiver
