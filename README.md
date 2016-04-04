@@ -1,4 +1,4 @@
-# jenkins-traffic-light-receiver
+# jenkins-traffic-light-receiver <img src="https://api.travis-ci.org/guidowojke/jenkins-traffic-light-receiver.svg" />
 
 ## TODOs
   * implement protocol defined in jenkins-traffic-light-sender
@@ -7,6 +7,3 @@
   * arduino
   * 433Mhz receiver
   * up to 3 rgb led's (each one represents one subscribed jenkins job) 
-
-  
-<img src="https://api.travis-ci.org/guidowojke/jenkins-traffic-light-receiver.svg" />
