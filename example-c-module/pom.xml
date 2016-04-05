@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.github.hacking.hardware</groupId>
+        <artifactId>jenkins-traffic-light-receiver</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <!-- references -->
+    <!-- http://mark.donszelmann.org/maven-swig-plugin/ -->
+    <!-- http://mark.donszelmann.org/maven-nar-plugin/ -->
+
+    <artifactId>jenkins-traffic-light-receiver-example-c-module</artifactId>
+    <packaging>nar</packaging>
+    <name>jenkins-traffic-light-receiver-example-c-module</name>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.github.maven-nar</groupId>
+                <artifactId>nar-maven-plugin</artifactId>
+                <extensions>true</extensions>
+                <configuration>
+                    <runtime>dynamic</runtime>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies/>
+</project>
