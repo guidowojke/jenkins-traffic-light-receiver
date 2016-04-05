@@ -2,8 +2,14 @@
 
 ## TODOs
   * implement protocol defined in jenkins-traffic-light-sender
+  * create schematic
+  * design pcb and produce several pieces
   
 ## Hardware
   * arduino
   * 433Mhz receiver
   * up to 3 rgb led's (each one represents one subscribed jenkins job) 
+
+## Proposed tools
+  * [Arduino Eclipse](http://eclipse.baeyens.it/)
+  * [KiCad](http://kicad-pcb.org/)
