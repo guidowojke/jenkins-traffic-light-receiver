@@ -10,6 +10,7 @@
 
     <modules>
         <module>example-c-module</module>
+        <module>example-arduino-module</module>
     </modules>
 
     <build>
