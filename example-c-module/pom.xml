@@ -25,6 +25,15 @@
                 <extensions>true</extensions>
                 <configuration>
                     <runtime>dynamic</runtime>
+                    <cpp>
+                        <exceptions>false</exceptions>
+                    </cpp>
+                    <libraries>
+                        <library>
+                            <type>shared</type>
+                            <linkCPP>false</linkCPP>
+                        </library>
+                    </libraries>
                 </configuration>
             </plugin>
         </plugins>
