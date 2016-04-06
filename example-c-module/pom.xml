@@ -30,7 +30,8 @@
                     </cpp>
                     <libraries>
                         <library>
-                            <type>shared</type>
+                            <!-- types are jni,shared,executable -->
+                            <type>executable</type>
                             <linkCPP>false</linkCPP>
                         </library>
                     </libraries>
