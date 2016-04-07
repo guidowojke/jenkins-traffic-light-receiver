@@ -4,6 +4,7 @@
 #include "ColorInterpolator.h"
 
 	const Color red(255,0,0);
+	const Color orange(255,100,0);
     const Color yellow(255,255,0);
     const Color white(255,255,255);
     const Color black(0,0,0);
@@ -18,9 +19,9 @@ void setup()
 
 	rgbLed01.setColor(&white);
 
-	building.setStartColor(&blue);
-	building.setEndColor(&yellow);
-	building.setSteps(512);
+	building.setStartColor(&red);
+	building.setEndColor(&orange);
+	building.setSteps(256);
 	building.initColorInterpolation();
 }
 

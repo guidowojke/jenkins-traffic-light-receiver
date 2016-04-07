@@ -13,9 +13,9 @@ RGBLed::RGBLed(uint8_t pinRed, uint8_t pinGreen, uint8_t pinBlue):pinRed(pinRed)
 }
 
 void RGBLed::setColor(const Color* c) {
-    analogWrite(pinRed, c->getRed());
-    analogWrite(pinGreen, c->getGreen());
-    analogWrite(pinBlue, c->getBlue());
+    analogWrite(pinRed, 255-c->getRed());
+    analogWrite(pinGreen, 255-c->getGreen());
+    analogWrite(pinBlue, 255-c->getBlue());
 }
 
 RGBLed::~RGBLed() {
